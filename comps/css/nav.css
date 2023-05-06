@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:cornflowerblue;
+}
+
+.container {
+    width:  100vw;
+    height: 550px;
+}
+
+.nav {
+    
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+
+}
+
+li {
+    width: 10px;
+    height: 10px;
+}

@@ -35,8 +35,13 @@ p {
 
 
 .email {
-    margin-top: 20px;
+    margin-top: 18px;
     color: #5c5b66;
+
+.password {
+    margin-top: -15px;
+    color: #5c5b66;
+}
 
 }
 
@@ -46,7 +51,7 @@ input {
     height: 45px;
     width: 255px;
     margin: 10px;
-    color: #796779;
+    color: #666666;
 }
 
 
@@ -86,5 +91,6 @@ button {
     border-radius: 5px;
     letter-spacing: 1px;
     font-size: medium;
+    border: #4caf50;
 
 }

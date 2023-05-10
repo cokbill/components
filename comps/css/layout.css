@@ -90,6 +90,32 @@ nav a:last-child {
     box-shadow: 0 2px 5px rgba(0,0,0, 0.1);
 }
 
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table; 
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cardsplitflex {
+display: flex;
+gap: 3;
+
+}
+
+.cardsplit {
+    width: 33%;
+    background-color: #fff;
+    padding: 20px;
+    margin: 15px 8px 0px 8px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0, 0.1);
+    
+}
+
 .card h2 {
     font-size: 24px;
     margin-bottom: 10px;
@@ -109,5 +135,14 @@ nav a:last-child {
 }
 
 .card:last-child {
-    margin-bottom: 0;
+    margin-bottom: 0;       
+}
+
+.cardsmall {
+    background-color: #fff;
+    height: 188px;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0, 0.1);
 }

@@ -6,31 +6,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/comps/css/layout.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prociono&display=swap" rel="stylesheet">
     <title>Layouting</title>
 </head>
 
 <body>
     <!-- Header -->
     <header class="header">
-        <h1>my website</h1>
-        <p>Lorem ipsum dolor sit amet consectetur.</p>
+        <h1>Evilworld.com</h1>
+        <p>biggest fastest reliable news</p>
     </header>
 
     <!-- NAV -->
     <nav>
         <a href="">Home </a>
-        <a href="">about</a>
-        <a href=""> service</a>
-        <a href="" style="float: right;">Contact</a>
+        <a href="">About</a>
+        <a href="">latest news</a>
+        <a href="">Contact us</a>
+        <a href="">service</a>
+        <div class="search">
+
+            <input type="search">
+        </div>
     </nav>
 
     <!-- content -->
     <div class="row">
         <div class="leftcolumn">
             <div class="card">
-                <h2>TITLE HEADING </h2>
-                <h5>title description, dec 7, 2017</h5>
-                <div class="fakeimg" style="height: 200px;">Image</div>
+                <div class="cardwrapper">
+                    <h2>TITLE HEADING </h2>
+                    <h5>title description, dec 7, 2017</h5>
+                </div>
+                <div class="fakeimg" style="height: 360px;">Image</div>
                 <p>some text..</p>
                 <p>
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum inventore nostrum ducimus ea impedit
@@ -39,9 +49,11 @@
                 </p>
             </div>
             <div class="card">
-                <h2>TITLE HEADING </h2>
-                <h5>title description, dec 7, 2017</h5>
-                <div class="fakeimg" style="height: 200px;">Image</div>
+                <div class="cardwrapper">
+                    <h2>TITLE HEADING </h2>
+                    <h5>title description, dec 7, 2017</h5>
+                </div>
+                <div class="fakeimg" style="height: 360px;">Image</div>
                 <p>some text..</p>
                 <p>
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum inventore nostrum ducimus ea impedit
@@ -113,7 +125,16 @@
             </div>
         </div>
     </div>
-
+    <div class="footer">
+        <div class="container">
+            <h3>Div 1</h3>
+            <p>This is the content of div 1.</p>
+        </div>
+        <div class="container">
+            <h3>Div 2</h3>
+            <p>This is the content of div 2.</p>
+        </div>
+    </div>
 
 
 </body>

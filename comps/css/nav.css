@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color:cornflowerblue;
+    background-color:rgb(255, 255, 255);
 }
 
 .container {
@@ -88,3 +88,4 @@ ul>li>a {
 .submenu a:hover {
     color:#f9ad0a;
 }
+

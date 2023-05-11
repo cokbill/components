@@ -55,7 +55,7 @@ ul>li>a {
 }
 
 .navwrapper a {
-    padding: 15px 50px;
+    padding: 15px 33px;
     color: white;
     font-weight: bold;
 }
@@ -68,7 +68,7 @@ ul>li>a {
     display: none;
     flex-direction: column;
     position: absolute;
-    top: 100%;
+    top: 85%;
     background-color: #646361;
     padding: 0 15px;
 }

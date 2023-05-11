@@ -1,6 +1,8 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -10,17 +12,79 @@ body {
 .container {
     width:  100vw;
     height: 550px;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  
+}
+
+.logo  img {
+    height: 48px;
+    width: 100%;
 }
 
 .nav {
-    padding: 20px;
-    width: 20px;
-    height: 20px;
-    background-color: black;
-   
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    height: 75px;
+    background-color:#f9ad0a;
+}
 
+ul>li>a {
+    text-decoration: none;
+}
+
+.navwrapper ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    align-items: center;
+}
+
+.navwrapper {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.navwrapper ul li {
+    display: flex;
+    position: relative;
+}
+
+.navwrapper ul li:hover .submenu {
+    display: flex;
+}
+
+.navwrapper a {
+    padding: 15px 50px;
+    color: white;
+    font-weight: bold;
+}
+
+.navwrapper a:hover {
+    color: #646361;
+}
+
+.navwrapper ul ul.submenu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    background-color: #646361;
+    padding: 0 15px;
+}
+
+.navwrapper ul.submenu li {
+    display: block;
+    width: 100%;
+}
+
+.submenu a {
+    padding: 15px 0;
+    text-align: left;
+    display: block;
+    width: 100%;
+}
+
+.submenu a:hover {
+    color:#f9ad0a;
 }

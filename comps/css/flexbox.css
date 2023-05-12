@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+width: 100%;
+height: 100%;
+}
+
+.header, .footer{
+    width: 100%;
+    height: 60px;
+    background-color: blue;
+    display: flex;
+    align-items: center;   
+    justify-content: center;
+}
+
+.buku {
+    width:100vw;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 10px;
+}
+
+.buku1, .buku2, .buku3 {
+    width: auto;
+    height: auto;
+    border: 1px solid grey;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+} 
+
+.buku .buku1 {
+    padding: 10px;
+ background-size: cover;
+}
+.buku .buku2 {
+    padding: 10px;
+ background-size: cover;
+}
+.buku .buku3 {
+    padding: 10px;
+ background-size: cover;
+}

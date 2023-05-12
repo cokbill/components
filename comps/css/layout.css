@@ -16,6 +16,7 @@ header {
     text-align: center;
     background: url('/comps/img/warheaderr.jpg') no-repeat;
     background-size: cover;
+    perspective: 100%;
     color: #fff;
 }
 
@@ -33,7 +34,7 @@ header {
 nav {
     height:50px;
     overflow: hidden;
-    background: #333;
+    background: #000000;
 }
 
 nav a {
@@ -41,18 +42,20 @@ nav a {
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 16px;
     text-decoration: none;
     transition: border-bottom 0.5s ease;
+
 }
 
 nav a:hover {
+    border-radius: 2px;
     border-bottom: 2px solid #f2f2f2;
 }
 
 .search {
     float: right;
-    padding: 11px 20px 11px 5px;
+    padding: 11px 20px 11px 25px;
 }
 
 .search input {
@@ -60,7 +63,13 @@ nav a:hover {
     height:30px;
     border : 1px solid #aaa;
     border-radius: 8px;
+    padding: 0px 0px 0px 15px;
 }
+
+.fa-solid .fa-magnifying-glass {
+    margin-right: 5px;
+}
+
 nav a:last-child {
     float: right;
 }
@@ -84,7 +93,8 @@ nav a:last-child {
 }
 
 .fakeimg {
-    background-color: #aaa;
+    background: url('/comps/img/ukranian.jpg') no-repeat;
+    background-size: cover;
     width: 100%;
     /* padding: 20px; */
     height: 200px;
@@ -94,6 +104,100 @@ nav a:last-child {
     color: #fff;
     font-size: 24px;
     text-align: center;
+}
+
+.fakeimg1 {
+    background: url('/comps/img/ukranian.jpg') no-repeat;
+    background-size: cover;
+    width: 100%;
+    /* padding: 20px; */
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+}
+
+.fakeimg2 {
+    background: url('/comps/img/f15.jpg') no-repeat;
+    background-size: cover;
+    filter: grayscale();
+    width: 100%;
+    /* padding: 20px; */
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+}
+
+.fakeimg3 {
+    background: url('/comps/img/russiaaccused.png') no-repeat;
+    background-size: contain;
+    width: fit-content;
+    width: 100%;
+    /* padding: 20px; */
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+}
+
+.fakeimg4 {
+    background: url('/comps/img/germany2.jpg') no-repeat;
+    background-size: contain;
+    width: fit-content;
+    width: 100%;
+    /* padding: 20px; */
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+}
+
+.fakeimg5 {
+    background: url('/comps/img/jongun.jpg') no-repeat;
+    background-size: cover;
+    width: fit-content;
+    width: 100%;
+    /* padding: 20px; */
+    height: 155px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+}
+
+.fakeimg6 {
+    background: url('/comps/img/iman.jpg') no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    width: 100px;
+    padding: 20px;
+    height: 155px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    margin-left: 80px;
+}
+
+.cardwrapper h2 {
+    color: #fff;
 }
 
 .card {
@@ -109,6 +213,11 @@ nav a:last-child {
     position: absolute;
     top: 67%;
     left: 3%;
+    z-index: 999;
+}
+
+.cardwrapper .white {
+    color: #fff;
 }
 
 .cf:before,
@@ -136,15 +245,27 @@ gap: 3;
     
 }
 
+.cardsplit .paragraph1 {
+    margin-top: -30px;
+}
+
+.cardsplit .paragraph2 {
+    margin-top: -30px;
+}
+
+.cardsplit .paragraph3 {
+    margin-top: 15px;
+}
+
 .card h2 {
     font-size: 24px;
     margin-bottom: 10px;
-    color :#333;
+    color :#000;
 }
 
 .card h5 {
     font-size: 14px ;
-    color: #777;
+    color: #fff;
     margin-top: 0;
 }
 
@@ -171,9 +292,9 @@ gap: 3;
     width: 100%;
     background-color: black;
     height: 450px;
-    padding: 40px;
+    padding: 30px;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 15px;
     border-radius: 5px;
     display: flex;
     align-items: center;

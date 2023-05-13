@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
@@ -9,13 +10,25 @@ width: 100%;
 height: 100%;
 }
 
-.header, .footer{
+.header { 
     width: 100%;
-    height: 60px;
-    background-color: blue;
+    height: 80px;
+    background-color: #1e90ff;
     display: flex;
     align-items: center;   
     justify-content: center;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 15px;
+}
+
+.footer{
+    width: 100%;
+    height: 45px;
+    background-color: #1e90ff;
+    display: flex;
+    align-items: center;   
+    justify-content: center;
+    color: white;
 }
 
 .buku {
@@ -24,27 +37,26 @@ height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 15px;
-    margin: 10px;
+    gap: 45px;
+    /* margin: 10px; */
 }
 
 .buku1, .buku2, .buku3 {
     width: auto;
-    height: auto;
-    border: 1px solid grey;
+    height: 505px;
     border-radius: 5px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 } 
 
 .buku .buku1 {
-    padding: 10px;
+    /* padding: 10px; */
  background-size: cover;
 }
 .buku .buku2 {
-    padding: 10px;
+    /* padding: 10px; */
  background-size: cover;
 }
 .buku .buku3 {
-    padding: 10px;
+    /* padding: 10px; */
  background-size: cover;
 }

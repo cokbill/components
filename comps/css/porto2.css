@@ -90,7 +90,6 @@ section {
     gap: 1.4rem;
     margin-top: 1.7rem;
 }
-
 .social a {
     color: #3d072e;
     font-size: 1rem;
@@ -100,7 +99,6 @@ section {
     text-align: center;
     width: 26px;
 }
-
 .social a:hover {
     color: #fff;
     background-color: #3d072e;
@@ -130,13 +128,11 @@ section {
     background-position: 0px -55px;
     background-size: 500px 500px;
 }
-
 .container {
     width: 1366px ;
     height: 550px;
     background: rgb(116,0,49);
     background: linear-gradient(0deg, rgba(116,0,49,1) 3%, rgba(82,11,37,1) 27%, rgba(61,7,46,1) 54%, rgba(42,3,55,1) 83%, rgba(20,6,37,1) 100%);
-
 }
 .container>.text-skill {
     width: 100%;
@@ -152,7 +148,6 @@ section {
 .text-skill>p {
     letter-spacing: 3px;
 }
-
 .u-center {
     width: 100%;
     height: 80%;
@@ -161,19 +156,16 @@ section {
     align-items: center;
     color: #fff;
 }
-
 .skills {
     display: flex;
     flex-direction: column;
     align-self: center;
 }
-
 .skill {
     margin: .7em 0;
     position: relative;
     width: 22.5em;
 }
-
 .skill__type {
     color: #fff;
     font-weight: 300;
@@ -182,7 +174,6 @@ section {
     text-transform: uppercase;
     width: 5em;
 }
-
 .skill__outer-bar .skill__inner-bar {
     height: .75em;
     border-radius: 0.4rem;
@@ -226,16 +217,13 @@ section {
     width: 1366px;
     height: 550px;
     background-image: linear-gradient(180deg, #eaebed 30%, #fff 70%);   
-
 }
 .container-wrapper {
-
     margin: 0 auto;
     padding: 0 3rem;
-    margin-top: 4rem;
+    margin-top: 2rem;
     text-align: center;
 }
-
 .container-wrapper>h1 {
     color: #3d072e;
     font-size: 2rem;
@@ -243,31 +231,78 @@ section {
     letter-spacing: 6px;
     margin-bottom: .9rem;
 }
-
 .container-wrapper>h2 {
     font-size: 1.2rem;
     font-weight: 400;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.1rem;
 }
-
 .foto img {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
 }
-
 .container-wrapper>p {
     font-size: .9rem;
     line-height: 2rem;
     padding: 0 130px;
-    margin-top: 2rem;
+    margin-top: .3rem;
 }
 
-/* .container-wrapper .btn {
+.container-wrapper>button {
+    margin-top: 1.5rem;
+}
+.container3 {
+    width: 1366px;
+    height: 660px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('/comps/img/wave.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    gap: 30px;
+    flex-direction: row;
 
-} */
+}
 
+.card {
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 15%;
+    height: 51%;
+    border-radius:0.4rem;
+    text-align: center;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card:hover {
+    box-shadow: 0 12px 18px 0 rgba(0,0,0,0.2);
+  }
+   
+  .containerCard {
+   height: 80%;
+   width: 90%;
+  }
+
+  .fa-brands .fa-wordpress .fa-2xl {
+    margin-top: 1rem;
+  }
+  
+.containerCard>img {
+    width: 185px;
+    height: 270px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 50%;
+}
+
+.containerCard>h3 {
+    color: #505154;
+}
 @keyframes fillBar {
     to {
         transform: scaleX(1);

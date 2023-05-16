@@ -222,16 +222,57 @@ section {
     width: 60%;
     background-color:#00d4f7;
 }
+.container2 {
+    width: 1366px;
+    height: 550px;
+    background-image: linear-gradient(180deg, #eaebed 30%, #fff 70%);   
+
+}
+.container-wrapper {
+
+    margin: 0 auto;
+    padding: 0 3rem;
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.container-wrapper>h1 {
+    color: #3d072e;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 6px;
+    margin-bottom: .9rem;
+}
+
+.container-wrapper>h2 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+
+.foto img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 1rem;
+}
+
+.container-wrapper>p {
+    font-size: .9rem;
+    line-height: 2rem;
+    padding: 0 130px;
+    margin-top: 2rem;
+}
+
+/* .container-wrapper .btn {
+
+} */
 
 @keyframes fillBar {
     to {
         transform: scaleX(1);
     }
-    
 }
-
-
-
 @media only screen and (max-width: 1024px) {
     section {
         margin: 2rem 2.5rem;
